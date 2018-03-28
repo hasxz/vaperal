@@ -41,18 +41,14 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
   # Personal data
   [params.personal]
     # If name is not set, author is used
-    name = "Jane Powers"
+    name = "Vaperal"
     # Avatars can be written to images/avatars/
     avatar = "jane.jpg"
-    position = "Lead Engineer"
-    livesIn = "[Munich, Germany](#some-maps-url)"
+    position = ""
+    livesIn = ""
     scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
-    biography = """Jane Powers is plain awesome. He worked at Corp A and B and is open for new work.  
-Even new lines and other markdown styles are working within the bio."""
+            ]
+    biography = """"""
 
   # Contact form settings
 
@@ -79,10 +75,12 @@ Even new lines and other markdown styles are working within the bio."""
     #postURL = "https://example.com/mailout/"
 
     enable = true
-    title = "Touch Me!"
+    title = "Order Form"
     namePlaceholder = "Name"
     emailPlaceholder = "Email"
     messagePlaceholder = "Message"
+    selectPlaceholder = "Select"
+
     buttonText = "Send it"
     success = "Thank you for contacting us."
     error = "Message could not be send. Please contact us at "

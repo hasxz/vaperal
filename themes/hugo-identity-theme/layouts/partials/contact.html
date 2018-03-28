@@ -13,6 +13,16 @@
       <input type="email" name="email" id="email" data-validation="required" placeholder="{{ .Site.Params.contact.emailPlaceholder }}" />
     </div>
     <div class="field">
+      <select type="select" name="select" id="select" data-validation="required" placeholder="{{ .Site.Params.contact.selectPlaceholder }}">
+        <option value="48" selected>Berry 48mg</option>
+        <option value="36">Berry 36mg</option>
+        <option value="24">Berry 24mg</option>
+        <option value="12">Berry 12mg</option>
+        <option value="0">Berry 0mg</option>
+
+</select> 
+    </div>
+    <div class="field">
       <textarea name="message" id="message" data-validation="required" placeholder="{{ .Site.Params.contact.messagePlaceholder }}" rows="4"></textarea>
     </div>
     <div class="text-success" id="success" style="display:none;">
